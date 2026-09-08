@@ -88,6 +88,22 @@ namespace G_NET106_C_Basics_05
             Console.WriteLine( $"Genre Number: {gen}");
             #endregion
 
+            #region Question09
+            /*Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to
+             attempt the conversion. Print "Unknown genre" if it fails.*/
+            genreText = "Mystery";
+            if (Enum.TryParse(genreText, out Genre result))
+            {
+
+                Console.WriteLine($"Genre: {result}");
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
+
+            #endregion
+
         }
 
     }
