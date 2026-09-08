@@ -64,6 +64,17 @@
 
 
             #endregion
+
+            #region Question07
+            /*Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.*/
+
+            Genre genree = Genre.Fiction;
+
+            string genreee = genree.ToString();
+
+            Console.WriteLine($" Genre: {genreee} ");
+            #endregion
         }
+    
     }
 }
