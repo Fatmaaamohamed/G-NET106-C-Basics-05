@@ -55,14 +55,14 @@
             {
                 Genre genre = (Genre)genreNumber;
 
-                Console.WriteLine($"Genre: {genre}"); 
+                Console.WriteLine($"Genre: {genre}");
             }
             else
             {
                 Console.WriteLine($"Value {genreNumber} is not a valid Genre.");
             }
 
-        
+
             #endregion
         }
     }
