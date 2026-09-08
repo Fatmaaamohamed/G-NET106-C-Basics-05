@@ -20,7 +20,14 @@
             // It compiles bc the access modifier internal allows to use the field only in the same file and program and class book are in the same file
             #endregion
 
+            #region Question03
+            /*Add a public string Title; field to Book. Set it and print it from Main.*/
 
+            Console.WriteLine($"Enter Book Title: ");
+            book.Title = Console.ReadLine();
+            Console.WriteLine($"Book Title: {book.Title}");
+
+            #endregion
         }
     }
 }
