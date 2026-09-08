@@ -38,6 +38,15 @@
             Console.WriteLine($"Book Genre: {book.genre}");
 
             #endregion
+
+            #region Question05
+            /*Using the Genre enum above, print the underlying int value of
+            Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.*/
+
+            Console.WriteLine($"Genre.Fiction underlying value: {(int)Genre.Fiction}");
+            Console.WriteLine($"Genre.NonFiction underlying value: {(int)Genre.NonFiction}");
+            Console.WriteLine($"Genre.Science underlying value: {(int)Genre.Science}");
+            #endregion
         }
     }
 }
