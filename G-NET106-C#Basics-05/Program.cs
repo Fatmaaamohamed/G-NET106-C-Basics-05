@@ -28,6 +28,16 @@
             Console.WriteLine($"Book Title: {book.Title}");
 
             #endregion
+
+            #region Question04
+            /*Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book,
+            assign it Genre.Science, and print it.*/
+
+            book.genre = Genre.Science;
+
+            Console.WriteLine($"Book Genre: {book.genre}");
+
+            #endregion
         }
     }
 }

@@ -11,5 +11,7 @@ namespace G_NET106_C_Basics_05
         internal int copiesInStock = 5;
 
         public string Title { get; set; }
+
+        public Genre genre { get; set; }
     }
 }
