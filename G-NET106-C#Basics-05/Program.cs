@@ -1,4 +1,6 @@
-﻿namespace G_NET106_C_Basics_05
+﻿using System.Collections.Specialized;
+
+namespace G_NET106_C_Basics_05
 {
     internal class Program
     {
@@ -74,7 +76,19 @@
 
             Console.WriteLine($" Genre: {genreee} ");
             #endregion
+
+            #region Question08
+
+            /*Given string genreText = "Science";, convert it into a Genre value using Enum.Parse() and
+            print the result.*/
+
+            string genreText = "Science";
+            Genre gen = Enum.Parse<Genre>(genreText);
+
+            Console.WriteLine( $"Genre Number: {gen}");
+            #endregion
+
         }
-    
+
     }
 }
