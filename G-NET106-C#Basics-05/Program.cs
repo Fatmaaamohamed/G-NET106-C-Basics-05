@@ -47,6 +47,23 @@
             Console.WriteLine($"Genre.NonFiction underlying value: {(int)Genre.NonFiction}");
             Console.WriteLine($"Genre.Science underlying value: {(int)Genre.Science}");
             #endregion
+
+            #region Question06
+            /*Given int genreNumber = 1;, cast it into a Genre value and print the result.*/
+            int genreNumber = 1;
+            if (Enum.IsDefined(typeof(Genre), genreNumber))
+            {
+                Genre genre = (Genre)genreNumber;
+
+                Console.WriteLine($"Genre: {genre}"); 
+            }
+            else
+            {
+                Console.WriteLine($"Value {genreNumber} is not a valid Genre.");
+            }
+
+        
+            #endregion
         }
     }
 }
