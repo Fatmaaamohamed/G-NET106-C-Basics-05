@@ -9,9 +9,18 @@
             (outside the class). What happens, and why?*/
 
             Book book = new Book();
-            book.password = "secret";
+            // book.password = "secret";
             //it gives Compile error bc Password is inaccessible due to protection level because the acces modifier private makes the field only accessible at its scope (class)
             #endregion
+
+            #region Question02
+            /*Add an internal int copiesInStock = 5; field to Book. Print it from Main. Does it compile?
+             Why?*/
+            Console.WriteLine($"Number of Copies in The Stock:  {book.copiesInStock}");
+            // It compiles bc the access modifier internal allows to use the field only in the same file and program and class book are in the same file
+            #endregion
+
+
         }
     }
 }
